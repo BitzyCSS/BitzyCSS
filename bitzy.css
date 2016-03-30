@@ -98,14 +98,14 @@ button:hover, input[type="button"]:hover {
   background: #3ec85d;
 }
 
-.wrapper, .row {
+.container, .row {
   *zoom: 1;
 }
-.wrapper:before, .row:before, .wrapper:after, .row:after {
+.container:before, .row:before, .container:after, .row:after {
   content: "";
   display: table;
 }
-.wrapper:after, .row:after {
+.container:after, .row:after {
   clear: both;
 }
 
@@ -117,7 +117,7 @@ button:hover, input[type="button"]:hover {
   box-sizing: border-box;
 }
 
-.wrapper {
+.container {
   width: 95%;
   max-width: 65em;
   margin: 50px auto;
@@ -184,7 +184,7 @@ button:hover, input[type="button"]:hover {
 }
 
 @media only screen and (max-width: 45em) {
-  .wrapper {
+  .container {
     width: 100%;
   }
 
