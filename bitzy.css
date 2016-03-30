@@ -46,12 +46,32 @@
   overflow: hidden;
 }
 
-h1 {
-  margin-top: 0;
-}
-
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2.2em;
+}
+
+h3 {
+  font-size: 1.9em;
+}
+
+h4 {
+  font-size: 1.6em;
+}
+
+h5 {
+  font-size: 1.3em;
+}
+
+h6 {
+  font-size: 1em;
 }
 
 p {
@@ -73,6 +93,7 @@ button, input[type="button"] {
   color: #fff;
   letter-spacing: 1px;
 }
+
 button:hover, input[type="button"]:hover {
   background: #5e5e5e;
 }
@@ -184,6 +205,10 @@ button:hover, input[type="button"]:hover {
 }
 
 @media only screen and (max-width: 45em) {
+  html {
+    font-size: 14px;
+  }
+
   .container {
     width: 100%;
   }
