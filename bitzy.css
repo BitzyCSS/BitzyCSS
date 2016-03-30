@@ -87,6 +87,23 @@ button:hover, input[type="button"]:hover {
   background: #3ec85d;
 }
 
+input[type="text"], input[type="number"], input[type="password"], input[type="email"] {
+  border: 0;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  outline: none;
+}
+
+select {
+  border: 1px solid #ddd;
+  padding: 10px;
+  outline: none;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin: 0 5px;
+}
+
 .wrapper, .row {
   *zoom: 1;
 }
