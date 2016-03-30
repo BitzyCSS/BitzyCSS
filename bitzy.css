@@ -8,6 +8,18 @@
   text-align: center;
 }
 
+.nested {
+  margin-top: 40px;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.inline {
+  display: inline-block;
+}
+
 .text-center {
   text-align: center;
 }
@@ -60,7 +72,6 @@ button, input[type="button"] {
   background: #777;
   color: #fff;
   letter-spacing: 1px;
-  outline: none;
 }
 button:hover, input[type="button"]:hover {
   background: #5e5e5e;
@@ -87,31 +98,14 @@ button:hover, input[type="button"]:hover {
   background: #3ec85d;
 }
 
-input[type="text"], input[type="number"], input[type="password"], input[type="email"] {
-  border: 0;
-  border-bottom: 1px solid #ddd;
-  padding: 10px;
-  outline: none;
-}
-
-select {
-  border: 1px solid #ddd;
-  padding: 10px;
-  outline: none;
-}
-
-input[type="radio"], input[type="checkbox"] {
-  margin: 0 5px;
-}
-
-.wrapper, .row {
+.container, .row {
   *zoom: 1;
 }
-.wrapper:before, .row:before, .wrapper:after, .row:after {
+.container:before, .row:before, .container:after, .row:after {
   content: "";
   display: table;
 }
-.wrapper:after, .row:after {
+.container:after, .row:after {
   clear: both;
 }
 
@@ -123,7 +117,7 @@ input[type="radio"], input[type="checkbox"] {
   box-sizing: border-box;
 }
 
-.wrapper {
+.container {
   width: 95%;
   max-width: 65em;
   margin: 50px auto;
@@ -190,7 +184,7 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 @media only screen and (max-width: 45em) {
-  .wrapper {
+  .container {
     width: 100%;
   }
 
