@@ -1,5 +1,5 @@
 # BitzyCSS
-a minimal css framework
+a minimal css framework.
 
 ### Grid
 A responsive 12-column grid. Classes of `row` and `column-1` through `column-12` go inside a 95% width `container` class.
